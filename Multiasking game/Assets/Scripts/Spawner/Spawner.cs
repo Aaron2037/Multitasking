@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class Spawner : MonoBehaviour
 {
-
+    //This is the spawner that Professor Warren gave to us
     public GameObject enemy1Prefab;
     public GameObject enemy2Prefab;
     float spawnTime = 0;
