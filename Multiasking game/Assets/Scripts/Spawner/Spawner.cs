@@ -20,7 +20,7 @@ public class Spawner : MonoBehaviour
         if (spawnTime < 0)
         {
             CreateNewObject();
-            spawnTime = Random.Range(2f, 6f);
+            spawnTime = Random.Range(3f, 6f);
         }
         spawnTime -= Time.deltaTime;
     }
